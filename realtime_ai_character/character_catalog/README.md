@@ -29,6 +29,7 @@ character_catalog
     - `order`: display order on the website
     - `rebyte_api_project_id`: the Project ID if using characters on ReByte.ai
     - `rebyte_api_agent_id`: the Agent ID if using characters on ReByte.ai
+    - `openai_assistant_id`: the Assistant ID if using OpenAI Assistants
 - `data` folder
     - Can be the character's background information, biography, conversation history, etc.
     - Information will be pulled from these documents during conversation

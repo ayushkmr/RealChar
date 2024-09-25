@@ -94,6 +94,8 @@ class CatalogManager(Singleton):
                 rebyte_api_project_id=yaml_content["rebyte_api_project_id"],
                 rebyte_api_agent_id=yaml_content["rebyte_api_agent_id"],
                 rebyte_api_version=yaml_content.get("rebyte_api_version"),
+                # OpenAI config
+                openai_assistant_id=yaml_content.get("openai_assistant_id"),
             )
 
             return character_name
@@ -183,6 +185,7 @@ class CatalogManager(Singleton):
                     rebyte_api_project_id=character_model.rebyte_api_project_id,  # type: ignore
                     rebyte_api_agent_id=character_model.rebyte_api_agent_id,  # type: ignore
                     rebyte_api_version=character_model.rebyte_api_version,  # type: ignore
+                    openai_assistant_id=character_model.openai_assistant_id,  # type: ignore
                 )
                 self.characters[character_model.id] = character  # type: ignore
                 # TODO: load context data from storage

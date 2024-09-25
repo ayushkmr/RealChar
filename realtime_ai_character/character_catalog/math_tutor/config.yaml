@@ -26,7 +26,7 @@ user: |
   {query}
 
 openai_assistant_id: asst_qzouJHqhVnWywdpbAJnmF1pO
-text_to_speech_use: EDGE_TTS
-voice_id: en-US-ChristopherNeural
-visibility: public
+text_to_speech_use: OPENAI
+voice_id: shimmer
+visibility: private
 order: 10

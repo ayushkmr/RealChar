@@ -33,6 +33,7 @@ class Character:
     rebyte_api_project_id: Optional[str] = None
     rebyte_api_agent_id: Optional[str] = None
     rebyte_api_version: Optional[int] = None
+    openai_assistant_id: Optional[str] = None
 
 
 @dataclass
